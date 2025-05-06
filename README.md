@@ -29,6 +29,10 @@ A simple and stylish weather dashboard built using Flask. Enter any city and get
 - (Optional) Jenkins installed locally
 
 ---
+![Screenshot 2025-05-06 195446](https://github.com/user-attachments/assets/6c76ed6a-ec61-4055-a93d-03c6de92918c)
+![Screenshot 2025-05-06 195438](https://github.com/user-attachments/assets/a8b5a592-c003-43c0-b782-c5a561107408)
+![Screenshot 2025-05-06 195430](https://github.com/user-attachments/assets/36ef99a8-09ce-4154-8e83-067fc9814c37)
+
 
 ### 🐳 Run with Docker
 
@@ -40,6 +44,5 @@ cd C:\Users\Ruchit\weather_dashboard
 docker build -t flaskweatherapp .
 
 # Run the container!
-![Screenshot 2025-05-06 195430](https://github.com/user-attachments/assets/bcc68856-a6ed-4647-b49f-107e034f4c3b)
-![Screenshot 2025-05-06 195446](https://github.com/user-attachments/assets/2903166c-14bc-4bfe-aece-ee9267ae3fb5)
-![Screenshot 2025-05-06 195438](https://github.com/user-attachments/assets/21ce2871-92d0-4944-ad0c-08587db8bc3f)
+
+
