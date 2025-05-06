@@ -32,6 +32,7 @@ A simple and stylish weather dashboard built using Flask. Enter any city and get
 ![Screenshot 2025-05-06 195446](https://github.com/user-attachments/assets/6c76ed6a-ec61-4055-a93d-03c6de92918c)
 ![Screenshot 2025-05-06 195438](https://github.com/user-attachments/assets/a8b5a592-c003-43c0-b782-c5a561107408)
 ![Screenshot 2025-05-06 195430](https://github.com/user-attachments/assets/36ef99a8-09ce-4154-8e83-067fc9814c37)
+![Screenshot 2025-05-06 200622](https://github.com/user-attachments/assets/79005d98-bbc1-45c1-bbe8-0b08d249b81f)
 
 
 ### 🐳 Run with Docker
