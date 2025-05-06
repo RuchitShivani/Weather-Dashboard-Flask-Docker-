@@ -1,0 +1,107 @@
+/* Reset everything to ensure clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a; /* Dark background for contrast */
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff5e62, #ff9966); /* Fire gradient background */
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* Dark, slightly transparent background */
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-size: 5rem; /* Large title */
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.city-selector {
+  margin-bottom: 30px;
+}
+
+.city-selector select {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  font-size: 2rem; /* Larger text for the dropdown */
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 250px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.city-selector select:hover {
+  background-color: #ff9966;
+}
+
+.weather-info {
+  background-color: rgba(255, 255, 255, 0.2); /* Light overlay background */
+  padding: 40px;
+  border-radius: 20px;
+  color: #ffcc00;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.temp-description {
+  font-size: 3rem; /* Bigger description text */
+}
+
+.temperature {
+  font-size: 5rem; /* Huge temperature display */
+  font-weight: bold;
+  color: #ffdd57; /* Bright yellow for temperature */
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 2rem;
+  font-style: italic;
+  color: #ffb74d;
+}
+
+.humidity {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-top: 30px;
+}
+
+.weather-info:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Hover effect to brighten the weather info */
+}
+
+.weather-info h2 {
+  font-size: 3rem; /* Big city name */
+  margin-bottom: 30px;
+  color: #c32323;
+}
